@@ -12,7 +12,6 @@ The recommended way of installing Python, is to use the [Anaconda Python distrib
 A good place to start out with the scientific use of Python is [scipy.org](http://www.scipy.org/). A very nice compilation of tutorials can be found in the [SciPy Lecture Notes](http://www.scipy-lectures.org/index.html).
 
 
-
 ### DRMS package
 
 Install the [DRMS Python package](https://pypi.python.org/pypi/drms) using the shell command
@@ -23,10 +22,10 @@ Make sure that you activated your Anaconda environment before you enter command 
 
 The documentation for the `drms` module is available on [Read the Docs](http://drms.readthedocs.io/), which also includes a detailed [tutorial](http://drms.readthedocs.io/en/stable/tutorial.html). In addition, there are many [example scripts](https://github.com/kbg/drms/tree/master/examples) in the `examples` directory of the [source code package](https://github.com/kbg/drms/releases/latest) of the `drms` module. Finally there is also a [HMI Science Nugget](http://hmi.stanford.edu/hminuggets/?p=1757) on the DRMS Python package.
 
+
 ### Register at JSOC
 
 To be able to make data export requests from JSOC, you need to register your email address on the [JSOC email registration](http://jsoc.stanford.edu/ajax/register_email.html) webpage. Just enter your email address in the "Notify" field and press the button below (the "Requester" field can be left empty). After that you should receive an email which you just need to reply to, in order to finalize the registration.
-
 
 
 ### Git
@@ -41,6 +40,19 @@ Using Git is not necessary (but recommended) for this workshop. If you really do
 [SunPy](http://sunpy.org/) is *not needed* for this tutorial. If you are interested in using it, you can have a look at material of the recent [Python/SunPy workshop](https://github.com/SolarDrew/freiburg-2017-02) that took place at KIS in February.
 
 
+## Getting started
+
+1. Clone the Git repository from Github:
+```
+    git clone https://github.com/kbg/drms-workshop.git
+```
+2. Change to the `drms-workshop` directory and start Jupyter:
+```
+    cd drms-workshop
+    jupyter notebook
+```
+3. Open the `index.ipynb` from the file list in your webbrowser.
+
 
 ## Resources
 
@@ -50,4 +62,5 @@ Using Git is not necessary (but recommended) for this workshop. If you really do
 - [DRMS module documentation](http://drms.readthedocs.io/)
 - [HMI Science Nugget](http://hmi.stanford.edu/hminuggets/?p=1757)
 - [JSOC webinterface](http://jsoc.stanford.edu/ajax/lookdata.html)
+- [JSOC data access](http://jsoc.stanford.edu/jsocwiki/JsocDataAccess)
 - [Python Workshop @ KIS, February 2017](https://github.com/SolarDrew/freiburg-2017-02)

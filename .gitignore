@@ -1,0 +1,6 @@
+*~
+*.png
+*.pdf
+*.fits
+/.ipynb_checkpoints
+/downloads
