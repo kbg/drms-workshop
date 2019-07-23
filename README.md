@@ -1,3 +1,5 @@
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/kbg/drms-workshop/master?filepath=index.ipynb)
+
 # DRMS access using Python
 
 ## Prerequisites
